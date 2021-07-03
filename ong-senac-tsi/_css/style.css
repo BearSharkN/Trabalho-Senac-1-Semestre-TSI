@@ -1,0 +1,156 @@
+*{
+    font-family: 'nunito';
+    margin: 0;
+    padding: 0;
+    outline: none;
+    
+}
+
+a{
+    text-decoration:none;
+}
+
+/****ALTERANDO A COR BG-PRIMARY PARA A COR AZUL DE NOSSO SITE ****/
+.bg-primary {
+    background-color: #5B92E5 !important;
+}
+
+.navbar-brand img{
+    width: 120px;
+}
+
+
+
+/***** O ID #CABECALHO REPRESENTA A IMAGEM DE FUNDO E SEU GRADIENTE NO CABECALHO PRINCIPAL*****/
+.cabecalho{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(foto.jpg);
+    background-size:cover;
+    width: 100%!important;
+    height: 450px!important;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/**** AQUI EU ESTOU ALTERANDO O MARGIN DO H1***/
+.titulo_principal{
+    font-size: 50px;
+    margin-top: 125px;
+}
+
+/***** PROJETOS *****/
+#projetos{
+    background-color: #222F36;
+    min-height: 20vh;
+}
+
+.card {
+    overflow: hidden;
+    width: 25rem;
+}
+
+.titulo{
+    text-align: center;
+    padding: 25px 0px;
+    color: white;
+    background-color: #222F36;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/******* FIM DOS PROJETOS ******/
+
+/**** CARD DE FUNCIONARIS ***/
+#equipe{
+    background-color: #222F36;
+    min-height: 19vh;
+}
+
+#cartao{
+    width: 17rem;
+}
+
+.rounded-circle{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+
+/************ PAGINA DE CONTATOS / FORMULÁRIO *****************/
+
+
+
+/********** PAGINA DE DOAÇÃO ******/
+.doacao1{
+     background-image: url(../_img/doacao1.png);
+     background-size:cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 100vh;
+}
+
+.doacao1 p{
+    padding-top: 8em;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+.doacao2 p{
+    padding-top: 8em;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+
+.doacao2{
+     background-image: url(../_img/doacao2.png);
+     background-size:cover;
+     background-repeat: no-repeat;
+     height: 100vh;
+}
+
+.imagem2{
+    background-image: url(../_img/faleConosco.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35vh;
+}
+
+.imagem-p{
+    background-image: url(../_img/projeto2.jpeg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35vh;
+}
+
+.footer{
+    background-color: #f5f5f5;
+    padding-top: 2em;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+textarea{
+    height: 267px;
+    resize: none;
+}
+
+.formulario{
+    background-color: #222F36;
+    height: 100vh;
+}
+
+.titulo-formulario{
+    font-size: 60px;
+    color: white;
+    font-weight: 300;
+    text-align: start;
+    padding-top: 0.8em;
+    padding-bottom: 10px;
+    padding-left: auto;
+}
